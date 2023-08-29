@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  border: border-box;
+  font-family: "Roboto Mono";
+}
+
+html {
+  font-size: 16px;
+}
+
+.nav-logo {
+  margin-left: 1rem;
+}
+
+.nav-email {
+  margin-right: 1rem;
+}
+
+.navbar {
+  background-color: black;
+  height: 70px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Times New Roman";
+  font-size: 3.5rem;
+}
+
+.nav-items li {
+  display: inline-block;
+  padding-left: 2.5rem;
+}
+
+.email {
+  border: 2px solid red;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  padding: 0.4rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav a:link {
+  text-decoration: none;
+}
+nav a:visited {
+  color: white;
+}
+
+/* Main Section */
+.hero-section {
+  background-image: url("./resources/esther-jiao-3HqSeexXYpQ-unsplash.jpg");
+  height: 38rem;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.container1 {
+  height: 4rem;
+  width: 30rem;
+}
+
+.container1 .quote {
+  color: white;
+  position: absolute;
+  top: 10rem;
+  left: 5%;
+}
+
+.quote h1 {
+  font-family: "Pacifico", cursive;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+.quote p {
+  text-align: center;
+  font-family: "Kalam", cursive;
+  font-size: 1.5rem;
+}
+
+.container2 {
+  position: relative;
+}
+.profile-section {
+  
+  height: 20rem;
+  width: 100%;
+  max-width: 16rem;
+  border: 2px solid white;
+  position: absolute;
+  right: 8%;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: black;
+}
+
+.profile-image {
+  height: 22.5rem;
+  width: 16rem;
+}
+
+.container3 {
+  position: relative;
+  margin-top: 34rem;
+  height: 40rem;
+  width: 100%;
+  /* background-color: blueviolet; */
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.info-section {
+  height: 4rem;
+  width: 60rem;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.container3 h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 6rem;
+}
+
+.container3 article {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+main hr {
+  border: none;
+  height: .1rem;
+  background-color: black;
+}
+
+/* Container 4 */
+
+.container4 {
+  position: absolute;
+  top: 70rem;
+  height: 58rem;
+  width: 80%;
+  color: white;
+  left: 10%;
+  right: 10%;
+}
+
+.all-sections {
+  display: flex;
+  justify-content: center;
+}
+.first-box {
+  border-radius: 2rem;
+  background-color: black;
+  width: 33.33%;
+  height: 48rem;
+  border:2px solid white;
+}
+
+/* First Box of Container4 */
+
+.first-box .logo {
+  margin-top: 20%;
+  text-align: center;
+}
+
+.container4-content {
+  text-align: center;
+}
+
+.container4-content .heading h3 {
+  padding-top: 2rem;
+  line-height: 5rem;
+}
+
+.content {
+  padding-top: 20%;
+  line-height: 2rem;
+}
+
+.content h4 {
+  font-weight: bold;
+}
+/* First Box of Container4 */
+
+/* .second-box {
+  padding-left: 33%;
+  width: 33.33%;
+  border: 3px solid blue;
+}
+
+/* First Box of Container4 */
+
+/* .third-box {
+  padding-left: 33%;
+  width: 33.33%;
+  border: 3px solid blue;
+} */
+
