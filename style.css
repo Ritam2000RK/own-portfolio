@@ -149,11 +149,12 @@ main hr {
 .container4 {
   position: absolute;
   top: 70rem;
-  height: 58rem;
+  height: 56rem;
   width: 80%;
   color: white;
   left: 10%;
   right: 10%;
+  /* border: 2px solid blue; */
 }
 
 .all-sections {
@@ -208,3 +209,18 @@ main hr {
   border: 3px solid blue;
 } */
 
+.container5 {
+  margin-top: 43.6rem;
+  height: auto;
+  width: auto;
+  /* border: 2px solid red; */
+}
+
+.contact-button {
+  text-align: center;
+}
+
+button {
+  padding: .9rem;
+  /* margin-left: 20%; */
+}
