@@ -19,6 +19,7 @@ html {
 .navbar {
   background-color: black;
   height: 70px;
+  border: 2px solid white;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -63,6 +64,8 @@ nav a:visited {
   background-position: center;
 }
 
+/* Container 1 */
+
 .container1 {
   height: 4rem;
   width: 30rem;
@@ -88,14 +91,16 @@ nav a:visited {
   font-size: 1.5rem;
 }
 
-.container2 {
+/* Container 2 */
+
+/* .container2 {
   position: relative;
 }
-.profile-section {
-  
+
+.profile-section { 
   height: 20rem;
   width: 100%;
-  max-width: 16rem;
+  max-width: 16rem; 
   border: 2px solid white;
   position: absolute;
   right: 8%;
@@ -106,15 +111,17 @@ nav a:visited {
 
 .profile-image {
   height: 22.5rem;
-  width: 16rem;
-}
+  max-width: 16rem;
+  width:  100%;
+} */
+
+/* Container 3 */
 
 .container3 {
   position: relative;
   margin-top: 34rem;
   height: 40rem;
   width: 100%;
-  /* background-color: blueviolet; */
   color: black;
   display: flex;
   justify-content: center;
@@ -154,7 +161,6 @@ main hr {
   color: white;
   left: 10%;
   right: 10%;
-  /* border: 2px solid blue; */
 }
 
 .all-sections {
@@ -195,25 +201,10 @@ main hr {
 }
 /* First Box of Container4 */
 
-/* .second-box {
-  padding-left: 33%;
-  width: 33.33%;
-  border: 3px solid blue;
-}
-
-/* First Box of Container4 */
-
-/* .third-box {
-  padding-left: 33%;
-  width: 33.33%;
-  border: 3px solid blue;
-} */
-
 .container5 {
   margin-top: 43.6rem;
   height: auto;
   width: auto;
-  /* border: 2px solid red; */
 }
 
 .contact-button {
@@ -222,5 +213,156 @@ main hr {
 
 button {
   padding: .9rem;
-  /* margin-left: 20%; */
+}
+
+/* Media Query for minimum width of 1650px */
+
+@media only screen and (min-width: 1650px) {
+  .navbar {
+    background-color: black;
+    height: 100px;
+  }
+  
+  .logo {
+    font-family: "Times New Roman";
+    font-size: 5.5rem;
+  }
+  
+  .nav-items li {
+    padding-left: 3.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .email {
+    background-color: white;
+    padding: 1rem;
+  }
+
+  /* Main Section */
+
+.container1 {
+  height: 4rem;
+  width: 30rem;
+}
+
+.container1 .quote {
+  top: 12rem;
+  left: 6%;
+}
+
+.quote h1 {
+  font-size: 3.8rem;
+}
+
+.quote p {
+  text-align: center;
+  font-family: "Kalam", cursive;
+  font-size: 2rem;
+}
+
+/* Container 3 */
+
+.container3 {
+  margin-top: 25rem;
+  height: 44rem;
+}
+
+.info-section {
+  width: 70rem;
+}
+
+.container3 article {
+  font-size: 1.1rem;
+  line-height: 2rem;
+}
+
+/* Container 4 */
+
+.container4 {
+  position: absolute;
+  top: 70rem;
+  height: 46rem;
+  width: 80%;
+  /* border: 2px solid blue; */
+}
+
+.first-box {
+  border-radius: 2rem;
+  background-color: black;
+  width: 33.33%;
+  height: auto;
+  border:2px solid white;
+}
+
+/* First Box of Container4 */
+
+.first-box .logo {
+  margin-top: 20%;
+  text-align: center;
+}
+
+.container4-content {
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+.container4-content .heading h3 {
+  padding-top: 2rem;
+  line-height: 5rem;
+}
+
+.content {
+  padding-top: 20%;
+  line-height: 2rem;
+}
+
+/* First Box of Container4 */
+
+.container5 {
+  margin-top: 46rem;
+  height: auto;
+  width: auto;
+  /* border: 2px solid red; */
+}
+
+
+button {
+  padding: .9rem;
+  margin-bottom: 5%;
+}
+}
+
+/* Media Query for smaller sreen size, dimension of 625px */
+
+@media only screen and (max-width: 625px) {
+  .container3 h2 {
+    font-size: 2rem;
+    line-height: 3rem;
+    padding-bottom: 10%;
+  }
+
+  .container3 article {
+    line-height: 1.7rem;
+  }
+
+  .container3 {
+    margin-bottom: 15%;
+  }
+
+  .container4 {
+    top: 75rem;
+  }
+
+  .first-box {
+    width: 100%;
+  }
+
+  .container5 {
+    margin-top: 42rem;
+    
+  }
+
+  .container1, .container3, .container3, .container4 {
+    width: auto;
+  }
 }
