@@ -333,17 +333,18 @@ button {
 
 /* Media Query for smaller sreen size, dimension of 625px */
 
-@media only screen and (max-width: 625px) {
+@media only screen and (max-width: 760px) {
+
+  /* Navigation Section */
   .nav-email {
     display: none;
   }
 
-  .nav-items .items{
-    align-items: center;
+  .nav-items {
+    margin-right: 12.5%;
   }
-
   .items li {
-    padding: .2rem 0 0 0;
+    padding-bottom: .5rem;
   }
 
   .nav-logo {
@@ -364,6 +365,8 @@ button {
     padding-bottom: 4%;
   }
 
+  /* Container 3 */
+
   .container3 h2 {
     font-size: 2rem;
     line-height: 3rem;
@@ -378,6 +381,8 @@ button {
     margin-bottom: 15%;
   }
 
+    /* Container 4 */
+
   .container4 {
     top: 75rem;
   }
@@ -390,7 +395,7 @@ button {
     margin-top: 42rem;
     
   }
-
+  /* All Containers  */
   .container1, .container3, .container3, .container4 {
     width: auto;
   }
