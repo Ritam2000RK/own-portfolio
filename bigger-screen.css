@@ -1,0 +1,111 @@
+@media only screen and (min-width: 1650px) {
+    .navbar {
+      background-color: black;
+      height: 100px;
+    }
+    
+    .logo {
+      font-family: "Times New Roman";
+      font-size: 5.5rem;
+    }
+    
+    .nav-items li {
+      padding-left: 3.5rem;
+      font-size: 1.2rem;
+    }
+    
+    .email {
+      background-color: white;
+      padding: 1rem;
+    }
+  
+    /* Main Section */
+  .container1 {
+    height: 4rem;
+    width: 30rem;
+  }
+  
+  .container1 .quote {
+    top: 12rem;
+    left: 6%;
+  }
+  
+  .quote h1 {
+    font-size: 3.8rem;
+  }
+  
+  .quote p {
+    text-align: center;
+    font-family: "Kalam", cursive;
+    font-size: 2rem;
+  }
+  
+  /* Container 3 */
+  
+  .container3 {
+    margin-top: 25rem;
+    height: 44rem;
+  }
+  
+  .info-section {
+    width: 70rem;
+  }
+  
+  .container3 article {
+    font-size: 1.1rem;
+    line-height: 2rem;
+  }
+  
+  /* Container 4 */
+  
+  .container4 {
+    position: absolute;
+    top: 70rem;
+    height: 46rem;
+    width: 80%;
+    /* border: 2px solid blue; */
+  }
+  
+  .first-box {
+    border-radius: 2rem;
+    background-color: black;
+    width: 33.33%;
+    height: auto;
+    border:2px solid white;
+  }
+  
+  /* First Box of Container4 */
+  
+  .first-box .logo {
+    margin-top: 20%;
+    text-align: center;
+  }
+  
+  .container4-content {
+    text-align: center;
+    padding-bottom: 10%;
+  }
+  
+  .container4-content .heading h3 {
+    padding-top: 2rem;
+    line-height: 5rem;
+  }
+  
+  .content {
+    padding-top: 20%;
+    line-height: 2rem;
+  }
+  
+  /* First Box of Container4 */
+  
+  .container5 {
+    margin-top: 46rem;
+    height: auto;
+    width: auto;
+  }
+  
+  button {
+    padding: .9rem;
+    margin-bottom: 5%;
+  }
+  }

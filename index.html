@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 760px)" />
+    <link rel="stylesheet" href="bigger-screen.css" media="screen and (min-width: 1650px)" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -29,6 +31,7 @@
       src="https://kit.fontawesome.com/23ed75a8e5.js"
       crossorigin="anonymous"
     ></script>
+
   </head>
   <body>
     <header>
@@ -55,10 +58,25 @@
           </div>
         </section>
       </nav>
-
+      </header>
+      <div class="hamburger-menu">
+        <div class="menu-icon" id="menu-icon">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <div class="mobile-menu" id="mobile-menu">
+          <ul>
+            <li><a href="#hero-section">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
+      </div>
       <!-- Main Section -->
       <main>
-        <section class="hero-section">
+        <section class="hero-section" id="hero-section">
           <!-- Container 1 -->
           <div class="container1">
             <div class="quote">
@@ -69,16 +87,6 @@
               </p>
             </div>
           </div>
-          <!-- Container 2 -->
-          <!-- <div class="container2">
-            <div class="profile-section">
-              <img
-                class="profile-image"
-                src="./resources/ian-dooley-d1UPkiFd04A-unsplash.jpg"
-                alt="Profile Picture"
-              />
-            </div>
-          </div> -->
           <!-- Container 3 -->
           <div class="container3" id="about">
             <div class="info-section">
@@ -132,15 +140,36 @@
           </div>
           <!-- Container 5 -->
           <div class="container5">
-            <div class="contact">
+            <div class="conct">
               <div class="contact-button">
                 <button>Contact here</button>
               </div>
             </div>
           </div>
-          
         </section>
       </main>
-    </header>
+      <footer>
+        <div id="footer-content">
+        <div class="random">
+        <h2>Contact</h2>
+        <p>Have an interesting project? I would love to hear about it!</p>
+      </div>
+        <div class="contact" id="contact">
+          <a href="https://www.linkedin.com/in/ritam-kayal-93a74b201">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/Ritam2000RK">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="rtmkayal@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+        <p><i class="fa-solid fa-copyright"></i> All copyrights are reserved</p>
+      </div>
+      </footer>
+      <script src="index.js">
+      </script>
+
   </body>
 </html>
