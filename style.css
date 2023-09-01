@@ -19,7 +19,6 @@ html {
 .navbar {
   background-color: black;
   height: 70px;
-  border: 2px solid white;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -335,6 +334,36 @@ button {
 /* Media Query for smaller sreen size, dimension of 625px */
 
 @media only screen and (max-width: 625px) {
+  .nav-email {
+    display: none;
+  }
+
+  .nav-items .items{
+    align-items: center;
+  }
+
+  .items li {
+    padding: .2rem 0 0 0;
+  }
+
+  .nav-logo {
+    display: none;
+  }
+
+  .navbar {
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4%;
+  }
+
   .container3 h2 {
     font-size: 2rem;
     line-height: 3rem;
