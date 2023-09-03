@@ -1,7 +1,10 @@
-// const contact = document.getElementById("footer-content");
+const contact = document.getElementById("footer-content");
+const button = document.getElementById("contact-button");
 
-// contact.style.display = 'none';
+contact.style.display = 'none';
 
-// contact.onclick = function () {
-//     const cont = document.getElementById("footer-content");
-// }
+function showContent() {
+    contact.style.display = 'block';
+}
+
+button.onclick = showContent;

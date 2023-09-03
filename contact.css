@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    border: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+  body .random {
+    text-align: center;
+    line-height: 2rem;
+    padding-top: 2rem;
+  }
+  
+  .contact {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .fa-linkedin, .fa-github, .fa-envelope {
+    font-size: 3rem;
+    color: black;
+    margin: 0 2rem 0 2rem;
+  }
+  
+  .fa-copyright {
+    margin-left: 1rem;
+    margin-top: 2%;
+  }
