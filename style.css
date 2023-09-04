@@ -12,9 +12,9 @@ html {
   margin-left: 1rem;
 }
 
-.nav-email {
+/* .nav-email {
   margin-right: 1rem;
-}
+} */
 
 .navbar {
   background-color: black;
@@ -30,18 +30,15 @@ html {
   font-size: 3.5rem;
 }
 
+.nav-items {
+  margin-right: 4%;
+}
+
 .nav-items li {
   display: inline-block;
   padding-left: 2.5rem;
 }
 
-.email {
-  border: 2px solid red;
-  background-color: white;
-  color: black;
-  font-weight: bold;
-  padding: 0.4rem;
-}
 
 nav a:hover {
   text-decoration: underline;
@@ -196,16 +193,8 @@ button {
   display: none;
 }
 
-.bar {
-  width: 25px;
-  height: 3px;
-  background-color: black;
-  margin: 6px 0;
-  transition: 0.4s;
-}
-
 footer {
-  height: 15rem;
+  max-height: 0;
   width: 100%;
   margin-top: 87.2rem;
 }

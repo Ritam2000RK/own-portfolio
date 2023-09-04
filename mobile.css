@@ -53,3 +53,8 @@
   .container1, .container3, .container3, .container4 {
     width: auto;
   }
+
+  footer {
+    max-height: 0;
+    margin-top: 93rem;
+  }
