@@ -47,7 +47,6 @@
 
   .container5 {
     margin-top: 42rem;
-    
   } 
   /* All Containers  */
   .container1, .container3, .container3, .container4 {
@@ -57,4 +56,18 @@
   footer {
     max-height: 0;
     margin-top: 93rem;
+  }
+
+  @media only screen and (max-width: 524px) {
+    .container5 {
+      margin-top: 45rem;
+    } 
+
+    .contact {
+      margin-top: 5%;
+    }
+
+    #footer-content p {
+      margin-top: 5%;
+    }
   }
